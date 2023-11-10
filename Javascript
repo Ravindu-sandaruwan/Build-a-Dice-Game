@@ -1,0 +1,8 @@
+function rollDice() {
+    // Generate a random number between 1 and 6 (representing the faces of a die)
+    const randomNumber = Math.floor(Math.random() * 6) + 1;
+
+    // Update the content of the dice element with the random number
+    const diceElement = document.getElementById('dice');
+    diceElement.textContent = randomNumber;
+}
